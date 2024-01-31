@@ -30,7 +30,7 @@ async function main() {
       //exit code
       if (userInput.toLowerCase() === "exit") {
         console.log(colors.yellow("Bot: ") + reply);
-        console.log(colors.green.bold("Signing off..."));
+        console.log(colors.green.bold("Signing off"));
         return;
       }
       console.log(colors.yellow("Bot: ") + reply);
